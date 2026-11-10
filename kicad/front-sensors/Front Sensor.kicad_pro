@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "silk_edge_clearance|104000000|100000000|08074bb5-12c9-4e04-a0ae-6668a0d044b5|9f971046-5368-4908-8bdd-7997613c8949",
+          "header pins overhang the top edge by design"
+        ],
+        [
+          "silk_edge_clearance|106000000|100000000|08074bb5-12c9-4e04-a0ae-6668a0d044b5|78e59417-a059-45e5-ba72-fd68e73237f5",
+          "header pins overhang the top edge by design"
+        ],
+        [
+          "silk_edge_clearance|108000000|100000000|08074bb5-12c9-4e04-a0ae-6668a0d044b5|4fc096c3-54e1-4a63-b7ec-64163dae7226",
+          "header pins overhang the top edge by design"
+        ],
+        [
+          "silk_edge_clearance|110000000|100000000|08074bb5-12c9-4e04-a0ae-6668a0d044b5|55242655-f311-4fab-9c32-9fdf44fb2389",
+          "header pins overhang the top edge by design"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -523,14 +540,14 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
       },
       {
-        "clearance": 0.4,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "microvia_diameter": 0.3,
@@ -539,7 +556,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.4,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3
