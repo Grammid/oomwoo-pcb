@@ -89,7 +89,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -1581,14 +1580,6 @@
 		(path "/f264cd8c-24ae-4428-a661-18daad913206")
 		(sheetname "/")
 		(sheetfile "Front Sensor.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "A1" "A3" "C4" "C3" "A5" "B4" "C7" "C1" "B1" "B7" "A4" "A6" "A7"
-					"C6" "A2" "C5" "C2"
-				)
-			)
-		)
 		(attr smd exclude_from_pos_files exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1752,6 +1743,17 @@
 			(fill no)
 			(layer "F.SilkS")
 			(uuid "7d49053b-2864-41dd-9720-4bec3f718983")
+		)
+		(fp_rect
+			(start -3.45 -1.75)
+			(end 3.45 1.75)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "51c017c8-6f46-413c-95c5-5d67a8039b8f")
 		)
 		(fp_circle
 			(center 2.3 1.8)
@@ -2786,7 +2788,7 @@
 		)
 	)
 	(gr_text "1"
-		(at 109.4 110.1 0)
+		(at 109.66 110.06 0)
 		(layer "F.SilkS")
 		(uuid "dcbef184-3675-4c0a-b401-83615c3bc8ad")
 		(effects
@@ -2799,7 +2801,7 @@
 		)
 	)
 	(gr_text "1"
-		(at 110.3 110.1 0)
+		(at 110.5 110.1 0)
 		(layer "B.SilkS")
 		(uuid "98ca565f-dce0-4c1f-8783-eed8430b028e")
 		(effects
