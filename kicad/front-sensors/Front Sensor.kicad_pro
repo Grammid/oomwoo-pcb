@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.2,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.3,
+          "thermal_relief_spoke_width": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -76,24 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "silk_edge_clearance|104000000|100000000|08074bb5-12c9-4e04-a0ae-6668a0d044b5|9f971046-5368-4908-8bdd-7997613c8949",
-          "header pins overhang the top edge by design"
-        ],
-        [
-          "silk_edge_clearance|106000000|100000000|08074bb5-12c9-4e04-a0ae-6668a0d044b5|78e59417-a059-45e5-ba72-fd68e73237f5",
-          "header pins overhang the top edge by design"
-        ],
-        [
-          "silk_edge_clearance|108000000|100000000|08074bb5-12c9-4e04-a0ae-6668a0d044b5|4fc096c3-54e1-4a63-b7ec-64163dae7226",
-          "header pins overhang the top edge by design"
-        ],
-        [
-          "silk_edge_clearance|110000000|100000000|08074bb5-12c9-4e04-a0ae-6668a0d044b5|55242655-f311-4fab-9c32-9fdf44fb2389",
-          "header pins overhang the top edge by design"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
